@@ -14,8 +14,8 @@ function comenzar()
 {
 	//Genero el número RANDOM entre 1 y 100
 	numeroSecreto=Math.floor((Math.random() * 100) + 1);
-		alert(numeroSecreto );
-	numero=document.getElementById('numero').value;
+		//alert(numeroSecreto );
+	//numero=document.getElementById('numero').value;
 
 	contadorIntentos=0;
 	document.getElementById('intentos').value=contadorIntentos;
