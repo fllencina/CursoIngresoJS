@@ -21,8 +21,8 @@ function comenzar()
 				break;
 
 		}
+		console.log(numeroSecreto);
 		//alert(eleccionMaquina);
-
 
 
 }//FIN DE LA FUNCIÓN
