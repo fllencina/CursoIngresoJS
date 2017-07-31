@@ -7,13 +7,18 @@ function Mostrar()
 		//while (!(sexo== "f" || sexo=="m"))
 	{
 		alert("Por favor ingrese f o m");
-		sexo = prompt("ingrese f ó m .");
+		sexo = prompt("ingrese f ó m ");
 
 	}
 
-	document.getElementById('Sexo').value=sexo;
+	switch (sexo)
+		{
+			case "f":
+			document.getElementById('Sexo').value="Femenino";
+			break;
+			case "m":
+			document.getElementById('Sexo').value="Masculino";
+			break;	
 
-	
-
-
+		}
 	}//FIN DE LA FUNCIÓN
